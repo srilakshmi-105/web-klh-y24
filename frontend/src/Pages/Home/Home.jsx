@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-          SIRI APP
+          SIRI's APP
           </Title>
 
           <Text
