@@ -39,6 +39,7 @@ export const ProfilePage = () => {
             <div>User not found</div>
         )
     }
+    
     return (
         <Container>
             <Stack
@@ -48,7 +49,7 @@ export const ProfilePage = () => {
                 justify="center"
                 gap="md"
             >
-                <Avatar src={user.avatar} alt="it's me" />
+                <Avatar src={user.avatar} alt="it's me"/>
                 <Text> {user.name} </Text>
                 <Text> {user.email} </Text>
                 <Text>{new Date(user.createdAt).toLocaleDateString()}</Text>
