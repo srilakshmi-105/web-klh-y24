@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-          SIRI's APP
+          SRI LAKSHMI
           </Title>
 
           <Text
@@ -75,7 +75,7 @@ fw={700}
             variant="gradient"
             gradient={{ from: "grape", to: "indigo" }}
             onClick={() =>
-              isLoggedIn ? navigate("/url/shortener") : navigate("/login")
+              isLoggedIn ? navigate("/shorten") : navigate("/login")
             }
           >
             Get Started
